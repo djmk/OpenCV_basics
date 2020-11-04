@@ -1,2 +1,2 @@
 # OpenCV_basics
-In this repository, I have uploaded the basic codes of OpenCV
+In this repository, I will upload the tutorials of OpenCV.
