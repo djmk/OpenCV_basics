@@ -1,18 +1,13 @@
-#Tokai University Confidential
+#For changing the size of image files using OpenCV
 
 import os
 import cv2
-import glob
-i = 0
-for filename in os.listdir("./samplesA") :
-	print("./samplesA" + filename)
-	tA = cv2.imread("./samplesA/" + filename)
+
+for filename in os.listdir("./imagefolder") :
+	print("./imagefolder" + filename)
+	tA = cv2.imread("./imagefolder/" + filename)
     
 	print('Original Dimensions tA : ',tA.shape)
-	
-	scale_percent = 20 # percent of original size
-	#width = int(img.shape[1] * scale_percent / 100)
-	#height = int(img.shape[0] * scale_percent / 100)
 	width=600
 	height=600
 	dim = (width, height)
@@ -21,8 +16,5 @@ for filename in os.listdir("./samplesA") :
 	 
 	print('Resized Dimensions tA : ',resizedA.shape)
  
-	dstA ="./testA/" + filename
+	dstA ="./destination folder/" + filename
 	cv2.imwrite(dstA, resizedA)
-	
-	#os.rename("./testB/" + filename, dst) 
-	i += 1
