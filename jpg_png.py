@@ -3,9 +3,9 @@
 import os
 import cv2
 
-for filename in os.listdir("./folder") :
-	print("./folder" + filename)
-	tA = cv2.imread("./folder/" + filename)
+for filename in os.listdir("./source_folder") :
+	print("./source_folder" + filename)
+	tA = cv2.imread("./source_folder/" + filename)
     
 	print('Original Dimensions tA : ',tA.shape)
 
