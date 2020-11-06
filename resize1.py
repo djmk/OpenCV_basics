@@ -1,11 +1,11 @@
-#Tokai University Confidential
+#Program to convert jpg file to png file
 
 import os
 import cv2
 
-for filename in os.listdir("./before") :
-	print("./before" + filename)
-	tA = cv2.imread("./before/" + filename)
+for filename in os.listdir("./folder") :
+	print("./folder" + filename)
+	tA = cv2.imread("./folder/" + filename)
     
 	print('Original Dimensions tA : ',tA.shape)
 
@@ -17,6 +17,6 @@ for filename in os.listdir("./before") :
 	 
 	print('Resized Dimensions tA : ',resizedA.shape)
 
-	dstA = "./before1/" + filename[:-3] + "png"
+	dstA = "./destination_folder/" + filename[:-3] + "png"
 	cv2.imwrite(dstA, resizedA, [cv2.IMWRITE_JPEG_QUALITY, 100])
 	
