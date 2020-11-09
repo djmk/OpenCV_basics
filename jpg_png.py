@@ -1,4 +1,4 @@
-#Program to convert jpg file to png file
+#Program to convert jpg images to png images
 
 import os
 import cv2
