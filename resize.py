@@ -1,4 +1,4 @@
-#For changing the size of image files using OpenCV
+#For changing the size(height and width) of image files using OpenCV
 
 import os
 import cv2
