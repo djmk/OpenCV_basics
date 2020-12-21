@@ -1,4 +1,4 @@
-# For changing the size(height and width) of image files using OpenCV.
+# For changing the size (height and width) of image files using OpenCV.
 # Initialize the width and height variables with the desired height and width of the image.
 
 import os
