@@ -1,3 +1,3 @@
 # OpenCV_basics
-In this repository, I have uploaded some tutorials related to OpenCV and Basic Image Processing.
+In this repository, I have uploaded tutorials related to OpenCV and Basic Image Processing.
 Furthermore, I have also uploaded some other preprocessing stuffs.
