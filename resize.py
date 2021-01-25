@@ -1,5 +1,5 @@
 # This program is written for changing the size (height and width) of image files in a folder using OpenCV library.
-# Initialize the width and height variables with the desired height and width of the image.
+# Initialize the width and height variables with the desired width and height of the image.
 
 import os
 import cv2
