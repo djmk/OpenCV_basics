@@ -1,4 +1,4 @@
-#Example of Changing the files format for pre-processing (jpg or png)
+# Example of Changing the files format for pre-processing (jpg or png)
 
 import os
 import cv2
